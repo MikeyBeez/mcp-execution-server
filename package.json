@@ -1,0 +1,20 @@
+{
+  "name": "mcp-execution-server",
+  "version": "1.0.0",
+  "description": "MCP server for code execution via Brain execution server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "start-server": "python3 server.py",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,8 @@
+[project]
+name = "mcp-execution-server"
+version = "1.0.0"
+description = "Brain MCP Execution Server"
+requires-python = ">=3.9"
+
+[tool.uv]
+dev-dependencies = []
